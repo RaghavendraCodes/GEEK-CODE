@@ -2,6 +2,10 @@ import mongoose, { Schema } from 'mongoose'
 
 const userSchema = new Schema(
     {
+        usernameGeek: {
+            type: String, 
+            required: true, 
+        },
         leetcodeUsername: {
             type: String, 
             require: true, 
